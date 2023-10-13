@@ -1,5 +1,5 @@
 FROM httpd
-WORDIR /var/www/html
+WORKDIR /var/www/html
 RUN touch index.html
 RUN echo "this is my dockerfile" > index.html
 EXPOSE 80
